@@ -15,8 +15,25 @@ public class BattleStartActivity extends AppCompatActivity {
     // ランダムに相手を設定
 
     // シーン移動・戦闘
+    public void moveBattle()
+    {
+    	Intent intent = (new Intent(this, BattleActivity.class));
+    	startActivity(intent);
+    }
+
     // シーン移動・戦闘開始
+    public void moveBattleStart()
+    {
+    	Intent intent = (new Intent(this, BattleStartActivity.class));
+    	startActivity(intent);
+    }
+
     // シーン移動・パーティ編成
+    public void movePartyMake()
+    {
+    	Intent intent = (new Intent(this, PartyMakeActivity.class));
+    	startActivity(intent);
+    }
 
 
 }

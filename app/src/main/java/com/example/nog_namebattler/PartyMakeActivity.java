@@ -13,7 +13,17 @@ public class PartyMakeActivity extends AppCompatActivity {
     }
 
     // シーン移動・タイトル
-    // シーン移動・バトル開始
+    public void moveMain()
+    {
+    	Intent intent = (new Intent(this, MainActivity.class));
+    	startActivity(intent);
+    }
 
+    // シーン移動・バトル開始
+    public void moveBattleStart()
+    {
+    	Intent intent = (new Intent(this, BattleStartActivity.class));
+    	startActivity(intent);
+    }
 
 }

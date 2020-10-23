@@ -13,7 +13,18 @@ public class CharMakeActivity extends AppCompatActivity {
     }
 
     // シーン移動・キャラ詳細
+    public void moveCharData()
+    {
+    	Intent intent = (new Intent(this, CharDataActivity.class));
+    	startActivity(intent);
+    }
+
     // シーン移動・作成完了
+    public void moveCharMade()
+    {
+    	Intent intent = (new Intent(this, CharMadeActivity.class));
+    	startActivity(intent);
+    }
 
     // キャラ作成
 

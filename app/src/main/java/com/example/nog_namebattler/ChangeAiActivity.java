@@ -12,9 +12,12 @@ public class ChangeAiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_change_ai);
     }
 
-    // シーン移動・キャラ作成
-    // シーン移動・キャラ詳細
-    // シーン移動・タイトル
+    // シーン移動・戦闘
+    public void moveBattle()
+    {
+    	Intent intent = (new Intent(this, BattleActivity.class));
+    	startActivity(intent);
+    }
 
 
 }

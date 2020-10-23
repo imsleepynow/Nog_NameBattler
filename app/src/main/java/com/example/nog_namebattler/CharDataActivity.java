@@ -14,6 +14,11 @@ public class CharDataActivity extends AppCompatActivity {
 
     // キャラ削除
     // シーン移動・キャラ一覧
+    public void moveCharBox()
+    {
+    	Intent intent = (new Intent(this, CharBoxActivity.class));
+    	startActivity(intent);
+    }
 
 
 }

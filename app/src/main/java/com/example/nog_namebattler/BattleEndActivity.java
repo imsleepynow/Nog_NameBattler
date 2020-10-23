@@ -13,8 +13,24 @@ public class BattleEndActivity extends AppCompatActivity {
     }
 
     // シーン移動・戦闘（相手チームそのまま）
-    // シーン移動・戦闘開始（相手チームを変える）
-    // シーン移動・タイトル
+    public void moveBattle()
+    {
+    	Intent intent = (new Intent(this, BattleActivity.class));
+    	startActivity(intent);
+    }
 
+    // シーン移動・戦闘開始（相手チームを変える）
+    public void moveBattleStart()
+    {
+    	Intent intent = (new Intent(this, BattleStartActivity.class));
+    	startActivity(intent);
+    }
+
+    // シーン移動・タイトル
+    public void moveMain()
+    {
+    	Intent intent = (new Intent(this, MainActivity.class));
+    	startActivity(intent);
+    }
 
 }
