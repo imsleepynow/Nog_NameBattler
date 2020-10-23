@@ -31,6 +31,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 <!-- ボタン・キャラ一覧 -->
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="キャラ一覧" />
+
 <!-- ボタン・パーティ編成 -->
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="パーティ編成" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
