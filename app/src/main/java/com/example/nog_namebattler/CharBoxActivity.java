@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class CharBoxActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,8 +12,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    // シーン移動・キャラ一覧
-    // シーン移動・パーティ編成
+    // シーン移動・キャラ作成
+    // シーン移動・キャラ詳細
+    // シーン移動・タイトル
 
 
 }

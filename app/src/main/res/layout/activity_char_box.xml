@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".CharBoxActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,9 +15,10 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<!-- テキスト・ネームバトラー -->
-<!-- テキスト・2020 Yohei Noguchi -->
-<!-- ボタン・キャラ一覧 -->
-<!-- ボタン・パーティ編成 -->
+
+<!-- リスト・キャラクター -->
+<!-- リスト項目・キャラクター（職業・HP・MP・STR・DEF・AGI） -->
+<!-- ボタン・キャラ作成 -->
+<!-- ボタン・戻る -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
