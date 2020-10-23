@@ -4,17 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class CharBoxActivity extends AppCompatActivity {
+public class PartyMakeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_char_box);
+        setContentView(R.layout.activity_party_make);
     }
 
-    // シーン移動・キャラ作成
-    // シーン移動・キャラ詳細
     // シーン移動・タイトル
+    // シーン移動・バトル開始
 
 
 }
